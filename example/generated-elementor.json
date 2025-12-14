@@ -1,0 +1,163 @@
+{
+  "content": [
+    {
+      "id": "container_2gh7dm50",
+      "elType": "container",
+      "settings": {},
+      "elements": [
+        {
+          "id": "container_tvdgwcqq",
+          "elType": "container",
+          "settings": {},
+          "elements": [
+            {
+              "id": "container_z4e50tvk",
+              "elType": "container",
+              "settings": {},
+              "elements": [
+                {
+                  "id": "container_u1mkz2wv",
+                  "elType": "container",
+                  "settings": {},
+                  "elements": [
+                    {
+                      "id": "widget_v0vwh3y7",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Welcome to Our Site",
+                        "size": "h1"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "widget_9hswt7nv",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "This is a short intro paragraph that explains the page purpose."
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "widget_78dycmil",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Get Started",
+                        "link": {
+                          "url": "https://example.com/cta"
+                        }
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": false
+            }
+          ],
+          "isInner": true
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "container_10uwfno7",
+      "elType": "container",
+      "settings": {
+        "flex_direction": "row"
+      },
+      "elements": [
+        {
+          "id": "container_ylw0r28u",
+          "elType": "container",
+          "settings": {
+            "width": "50%"
+          },
+          "elements": [
+            {
+              "id": "widget_9751qns4",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Column One",
+                "size": "h2"
+              },
+              "elements": []
+            },
+            {
+              "id": "widget_abfu5wn8",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "Some content for column one."
+              },
+              "elements": []
+            },
+            {
+              "id": "widget_94kjxs44",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://via.placeholder.com/300x200",
+                  "alt": "Placeholder 1"
+                }
+              },
+              "elements": []
+            }
+          ],
+          "isInner": true
+        },
+        {
+          "id": "container_bcp8lofh",
+          "elType": "container",
+          "settings": {
+            "width": "50%"
+          },
+          "elements": [
+            {
+              "id": "widget_8mfdgw1j",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Column Two",
+                "size": "h2"
+              },
+              "elements": []
+            },
+            {
+              "id": "widget_8assjv9m",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "Some content for column two."
+              },
+              "elements": []
+            },
+            {
+              "id": "widget_m6grntv3",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://via.placeholder.com/300x200",
+                  "alt": "Placeholder 2"
+                }
+              },
+              "elements": []
+            }
+          ],
+          "isInner": true
+        }
+      ],
+      "isInner": false
+    }
+  ],
+  "page_settings": {},
+  "version": "0.4",
+  "title": "input",
+  "type": "page"
+}
