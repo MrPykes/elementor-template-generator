@@ -1,53 +1,86 @@
 {
   "content": [
     {
-      "id": "container_2gh7dm50",
+      "id": "container_3yll4h1f",
       "elType": "container",
       "settings": {},
       "elements": [
         {
-          "id": "container_tvdgwcqq",
+          "id": "container_h4ociw2o",
           "elType": "container",
           "settings": {},
           "elements": [
             {
-              "id": "container_z4e50tvk",
+              "id": "container_1rspk8u9",
               "elType": "container",
               "settings": {},
               "elements": [
                 {
-                  "id": "container_u1mkz2wv",
+                  "id": "container_zfctlplh",
                   "elType": "container",
                   "settings": {},
                   "elements": [
                     {
-                      "id": "widget_v0vwh3y7",
+                      "id": "widget_y7mpeyo7",
                       "elType": "widget",
                       "widgetType": "heading",
                       "settings": {
                         "title": "Welcome to Our Site",
-                        "size": "h1"
+                        "header_size": "h1",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Poppins",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 40,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "600"
                       },
                       "elements": []
                     },
                     {
-                      "id": "widget_9hswt7nv",
+                      "id": "widget_dqs36wyi",
                       "elType": "widget",
                       "widgetType": "text-editor",
                       "settings": {
-                        "editor": "This is a short intro paragraph that explains the page purpose."
+                        "editor": "This is a short intro paragraph that explains the page purpose.",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Poppins",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 18,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "400"
                       },
                       "elements": []
                     },
                     {
-                      "id": "widget_78dycmil",
+                      "id": "widget_hsy7ohcg",
                       "elType": "widget",
-                      "widgetType": "button",
+                      "widgetType": "ucaddon_creative_buttons",
                       "settings": {
-                        "text": "Get Started",
+                        "button_text": "Get Started",
+                        "styles": "uc_btn-5",
                         "link": {
                           "url": "https://example.com/cta"
-                        }
+                        },
+                        "button_padding": {
+                          "unit": "px",
+                          "top": 20,
+                          "right": 48,
+                          "bottom": 20,
+                          "left": 48,
+                          "isLinked": false
+                        },
+                        "button_typography_typography": "custom",
+                        "button_typography_font_family": "Poppins",
+                        "button_typography_font_size": {
+                          "unit": "px",
+                          "size": 18,
+                          "sizes": []
+                        },
+                        "__globals__": {}
                       },
                       "elements": []
                     }
@@ -64,47 +97,68 @@
       "isInner": false
     },
     {
-      "id": "container_10uwfno7",
+      "id": "container_ui26silr",
       "elType": "container",
       "settings": {
         "flex_direction": "row"
       },
       "elements": [
         {
-          "id": "container_ylw0r28u",
+          "id": "container_s293xelf",
           "elType": "container",
           "settings": {
             "width": "50%"
           },
           "elements": [
             {
-              "id": "widget_9751qns4",
+              "id": "widget_4x1juebr",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
                 "title": "Column One",
-                "size": "h2"
+                "header_size": "h2",
+                "typography_typography": "custom",
+                "typography_font_family": "Poppins",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 28,
+                  "sizes": []
+                },
+                "typography_font_weight": "600"
               },
               "elements": []
             },
             {
-              "id": "widget_abfu5wn8",
+              "id": "widget_spodqtul",
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
-                "editor": "Some content for column one."
+                "editor": "Some content for column one.",
+                "typography_typography": "custom",
+                "typography_font_family": "Poppins",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 18,
+                  "sizes": []
+                },
+                "typography_font_weight": "400"
               },
               "elements": []
             },
             {
-              "id": "widget_94kjxs44",
+              "id": "widget_0mp9yu4z",
               "elType": "widget",
               "widgetType": "image",
               "settings": {
                 "image": {
                   "url": "https://via.placeholder.com/300x200",
-                  "alt": "Placeholder 1"
-                }
+                  "id": "",
+                  "size": "",
+                  "alt": "Placeholder 1",
+                  "source": "library"
+                },
+                "image_size": "full",
+                "align": "left"
               },
               "elements": []
             }
@@ -112,40 +166,61 @@
           "isInner": true
         },
         {
-          "id": "container_bcp8lofh",
+          "id": "container_bkotod4t",
           "elType": "container",
           "settings": {
             "width": "50%"
           },
           "elements": [
             {
-              "id": "widget_8mfdgw1j",
+              "id": "widget_1xy6lwc2",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
                 "title": "Column Two",
-                "size": "h2"
+                "header_size": "h2",
+                "typography_typography": "custom",
+                "typography_font_family": "Poppins",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 28,
+                  "sizes": []
+                },
+                "typography_font_weight": "600"
               },
               "elements": []
             },
             {
-              "id": "widget_8assjv9m",
+              "id": "widget_jh7j87qk",
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
-                "editor": "Some content for column two."
+                "editor": "Some content for column two.",
+                "typography_typography": "custom",
+                "typography_font_family": "Poppins",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 18,
+                  "sizes": []
+                },
+                "typography_font_weight": "400"
               },
               "elements": []
             },
             {
-              "id": "widget_m6grntv3",
+              "id": "widget_5xp3wifc",
               "elType": "widget",
               "widgetType": "image",
               "settings": {
                 "image": {
                   "url": "https://via.placeholder.com/300x200",
-                  "alt": "Placeholder 2"
-                }
+                  "id": "",
+                  "size": "",
+                  "alt": "Placeholder 2",
+                  "source": "library"
+                },
+                "image_size": "full",
+                "align": "left"
               },
               "elements": []
             }
