@@ -1,0 +1,74 @@
+{
+  "version": "1.0",
+  "title": "input",
+  "type": "elementor_library",
+  "content": {
+    "elements": [
+      {
+        "id": "section_example",
+        "elType": "section",
+        "settings": {
+          "html_tag": "section"
+        },
+        "elements": [
+          {
+            "id": "column_example_1",
+            "elType": "column",
+            "settings": { "width": "100%" },
+            "elements": [
+              {
+                "id": "widget_h1",
+                "elType": "widget",
+                "widgetType": "heading",
+                "settings": { "title": "Welcome to Our Site", "size": "h1" },
+                "elements": []
+              },
+              {
+                "id": "widget_p1",
+                "elType": "widget",
+                "widgetType": "text-editor",
+                "settings": { "editor": "This is a short intro paragraph that explains the page purpose." },
+                "elements": []
+              },
+              {
+                "id": "widget_btn1",
+                "elType": "widget",
+                "widgetType": "button",
+                "settings": { "text": "Get Started", "link": { "url": "https://example.com/cta" } },
+                "elements": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section_example_2",
+        "elType": "section",
+        "settings": {},
+        "elements": [
+          {
+            "id": "column_example_2a",
+            "elType": "column",
+            "settings": { "width": "50%" },
+            "elements": [
+              { "id": "widget_h2_a", "elType": "widget", "widgetType": "heading", "settings": { "title": "Column One", "size": "h2" }, "elements": [] },
+              { "id": "widget_p2_a", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "Some content for column one." }, "elements": [] },
+              { "id": "widget_img_a", "elType": "widget", "widgetType": "image", "settings": { "image": { "url": "https://via.placeholder.com/300x200", "alt": "Placeholder 1" } }, "elements": [] }
+            ]
+          },
+          {
+            "id": "column_example_2b",
+            "elType": "column",
+            "settings": { "width": "50%" },
+            "elements": [
+              { "id": "widget_h2_b", "elType": "widget", "widgetType": "heading", "settings": { "title": "Column Two", "size": "h2" }, "elements": [] },
+              { "id": "widget_p2_b", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "Some content for column two." }, "elements": [] },
+              { "id": "widget_img_b", "elType": "widget", "widgetType": "image", "settings": { "image": { "url": "https://via.placeholder.com/300x200", "alt": "Placeholder 2" } }, "elements": [] }
+            ]
+          }
+        ]
+      }
+    ],
+    "settings": {}
+  }
+}
